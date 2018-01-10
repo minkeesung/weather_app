@@ -17,7 +17,7 @@ export function fetchWeather(zip_code, scroll_down) {
 
   return function(dispatch) {
     dispatch(requestWeather())
-    axios.get(`http://api.openweathermap.org/data/2.5/forecast/daily?appid=${API_KEY}&zip=${zip_code},us&units=imperial`)
+    axios.get(`https://api.openweathermap.org/data/2.5/forecast/daily?appid=${API_KEY}&zip=${zip_code},us&units=imperial`)
       .then(response => {
         scroll_down()
         dispatch( {type: FETCH_WEATHER, payload: response} )

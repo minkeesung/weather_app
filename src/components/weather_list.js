@@ -30,3 +30,7 @@ function mapStateToProps({weather}){
 
 
 export default connect(mapStateToProps)(WeatherList)
+
+// Mixed content: the page at was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 
+// 'http://api.openweathermap.org/data/2.5/forecast/daily?appid=3bf455c3561826a033d58e438575c933&zip=11791,us&units=imperial'. This request has been blocked; t
+// he content must be served over HTTPS.
