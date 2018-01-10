@@ -1,0 +1,17 @@
+.display_weather {
+  background-color: #303030;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  width: 100%;
+  position: absolute;
+}
+
+
+.unordered_weather_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}

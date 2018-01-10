@@ -1,0 +1,78 @@
+
+.wrapper {
+  padding: 10% 5%;
+}
+
+.icon {
+  margin: 2% -2%;
+}
+
+h1 {
+  color: white;
+  font-family: Tiempos Headline Semibold;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Apercu Pro';
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.search_bar {
+  background-color: #d6482e;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.form-control {
+  background-color: #d6482e;
+  border: 2px solid white;
+  width: 50%;
+  height: 100px;
+  font-size: 50px;
+  color: white;
+  padding: 0px 0px 0px 20px;
+  font-family: Apercu Pro;
+}
+
+::placeholder {
+    color: #db7b6a;
+    font-size: 50px;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+   color: #db7b6a;
+   font-size: 50px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+   color: #db7b6a;
+   font-size: 50px;
+}
+
+.loading {
+  color: white;
+  font-family: 'Apercu Pro';
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 2%;
+}
+
+.error {
+  color: white;
+  font-family: 'Apercu Pro';
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 2%;
+}
